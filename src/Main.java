@@ -99,7 +99,7 @@ public class Main {
     public static void task6() {
         System.out.println("Task6");
         int countYear = 9;
-        int countMonth = 9 * 12;
+        int countMonth = countYear * 12;
 
         double rate = 0.07;
         int initialDeposit = 15_000;
